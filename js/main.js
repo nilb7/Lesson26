@@ -15,3 +15,18 @@ console.log(b)
 console.log(c)
 console.log(d)
 console.log(e)
+
+
+a+=15
+console.log(a)
+
+
+a++
+console.log(a)
+
+var numri1 = 20
+var numri2 = 20
+
+console.log(numri1 == numri2)
+console.log(numri1 === numri2)
+console.log(!(numri1 == numri2))
