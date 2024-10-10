@@ -105,6 +105,14 @@ alert(computer.type());
 delete computer.GPU;
 alert(computer.GPU);
 
+function Computer(name, CPU, RAM, GPU){
+    this.name = name;
+    this.CPU = CPU;
+    this.RAM = RAM;
+    this.GPU = GPU;
+}
+var computer1 = newComputer("MacBook Pro", "M1 8-core", "8GB", "5600M GPU");
+var computer2 = new Computer("Acer", "Intel Core i3", "4GB", "Intergrated");
 
 
 
