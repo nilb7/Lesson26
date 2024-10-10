@@ -96,4 +96,9 @@ computer.CPU = "Intel Core i7";
 computer.RAM = "16GB";
 computer.GPU = "GeForce GT730 2GB Dual DP HP";
 
+computer.type = function(){
+    return this.name + "," + this .CPU + "," + this.RAM + ","+ this.GPU;
+};
+
+
 
