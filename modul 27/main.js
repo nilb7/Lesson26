@@ -100,5 +100,11 @@ computer.type = function(){
     return this.name + "," + this .CPU + "," + this.RAM + ","+ this.GPU;
 };
 
+alert(computer.GPU);
+alert(computer.type());
+delete computer.GPU;
+alert(computer.GPU);
+
+
 
 
