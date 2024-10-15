@@ -20,7 +20,7 @@ button3.onmouseleave = function(){
 }
 
 button4.onwheel = function(){
-    alert('button 4 was wheeled')
+    ds_text.style.cssText= "color: red; text-align: right; font-size:100px; background-color: lightblue;"
 }
 
 
