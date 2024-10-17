@@ -14,5 +14,8 @@ console.log(subjects);
 subjects.shift();
 console.log(subjects);
 
+subjects.slice(1,0,'BBB',Albanian);
+console.log(subjects);
+
 
 
