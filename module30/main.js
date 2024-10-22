@@ -7,3 +7,12 @@ if(age >= 18 && place == "Prishtine"){
 else(
     console.log('Sorry you cant vote')
 );
+
+cars = ['audi', 'bmw', 'mercedes', 'lamborghini' , 'tesla', 'porsche', 'ferrari']
+
+if(cars[5]== 'lamborghini'){
+    console.log('YOU GUESSED IT')
+}
+else{
+    console.log('YOU didnt guess it')
+}
