@@ -12,5 +12,9 @@ var answer = document.querySelector("#answer");
 var btn_shuma = document.querySelector("#bt_shuma");
 
 btn_shuma.addEventListener("click", function(){
-    answer.innerHTML = input1.value+input2.value;
+    answer.innerHTML = parseInt(input1.value)+parseInt(input2.value);
 })
+
+var text = 'The best school in the world is Digital School';
+var result = text.search(/Digital School/)
+document.getElementById("result1").innerHTML = result;
