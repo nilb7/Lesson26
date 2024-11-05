@@ -7,6 +7,8 @@ for (i=0; i<15; i++){
     sum = sum + list[1]
 }
 
+console.log(sum)
+
 
 
 
