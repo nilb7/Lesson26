@@ -17,8 +17,12 @@ function validate(){
         if(city=""){
             document.getElementById("city_error").style.visibility = 'visible'
         }
+        return false;
     }
+    else{
+        return true;
     }
+}
     
 
 
