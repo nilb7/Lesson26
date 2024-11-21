@@ -4,9 +4,9 @@ nav{
     overflow: hidden;
 }
 
-/* nav #links{
+nav #links{
     display: none;
-} */
+} 
 
 nav a, button{
     color: white;
@@ -21,4 +21,10 @@ nav button.icon{
     display: block;
     position: absolute;
     top: 0;
+    right: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: blue;
 }
